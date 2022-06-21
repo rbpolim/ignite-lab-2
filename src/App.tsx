@@ -9,7 +9,7 @@ const GET_LESSONS_QUERY = gql`
   }
 `
 
-type LessonProps = {
+type Lesson = {
   id: string
   title: string
 }
@@ -19,7 +19,7 @@ function App() {
 
   return (
     <ul>
-      {data?.lessons.map((lesson: LessonProps) =>
+      {data?.lessons.map((lesson: Lesson) =>
         <li key={lesson.id}>{lesson.title}</li>)
       }
     </ul>

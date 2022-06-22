@@ -6,13 +6,14 @@ A platform for lessons/live videos on a single page application, with a modern &
 
 ## Tech Stack
 
-**Client:** Vite, TailwindCSS, ReactJS
+**Client:** Vite, TypeScript, TailwindCSS, ReactJS
 
 **Server:** GraphQL, GraphCMS
 
 ## Techs
 
 - Vite
+- TypeScript
 - TailWindCSS
 - ReactJS
 - NodeJS

@@ -1,4 +1,4 @@
-![Desktop - 1](https://user-images.githubusercontent.com/66570560/175112666-79ed6c5d-cf1c-4b92-bcfb-acecfb887cd3.png)
+![Desktop - 1 (1)](https://user-images.githubusercontent.com/66570560/175113718-6297e833-a4bc-4c85-9bfd-d802fa37d06d.png)
 
 # Project
 

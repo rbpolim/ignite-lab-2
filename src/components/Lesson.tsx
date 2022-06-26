@@ -11,7 +11,7 @@ type LessonProps = {
 }
 
 export function Lesson({ title, slug, availableAt, type }: LessonProps) {
-  const { slugParams } = useParams<{ slugParams: string }>()
+  const { slug: slugParams } = useParams()
 
   const isLessonAvailable = isPast(availableAt);
   const availableAtFormatted = format(availableAt, "EEEE' • 'd' de 'MMMM' • 'k'h'mm",
@@ -26,7 +26,7 @@ export function Lesson({ title, slug, availableAt, type }: LessonProps) {
         {availableAtFormatted}
       </span>
 
-      <div className={`p-4 mt-2 border border-gray-500 rounded group-hover:border-green-500 ${isActiveLesson ? 'bg-green-500' : ''}`}>
+      <div className={`p-4 mt-2 border border-gray-500 rounded group-hover:border-green-500 ${isActiveLesson && 'bg-green-500'}`}>
         <header className="flex items-center justify-between">
           {isLessonAvailable ? (
             <span className="flex items-center gap-2 text-sm font-medium text-blue-500">

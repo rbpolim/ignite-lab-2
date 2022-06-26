@@ -5,6 +5,8 @@ import { Logo } from "../components/Logo";
 
 import { useCreateSubscribeMutation } from "../graphql/generated";
 
+import imgUrl from '../assets/code-mockup.png'
+
 export function Subscribe() {
   const navigate = useNavigate()
 
@@ -73,8 +75,8 @@ export function Subscribe() {
       </div>
 
       <img
-        alt=""
-        src="/src/assets/code-mockup.png"
+        alt="Code Mockup"
+        src={imgUrl}
         className="mt-10"
       />
     </div>

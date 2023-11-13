@@ -10,11 +10,6 @@ A platform for lessons/live videos on a single page application, with a modern &
 
 **Server:** GraphQL, GraphCMS
 
-
-## Demo
-
-https://ignite-lab-2-eeogugrp6-rbpolim.vercel.app/
-
 ## Techs
 
 - Vite
